@@ -1,3 +1,4 @@
+
 public class PalindromeNumber {
 
     public boolean isPalindrome(int number) {
