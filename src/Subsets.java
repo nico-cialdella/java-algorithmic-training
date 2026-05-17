@@ -13,7 +13,7 @@ public class Subsets {
     }
 
     public List<List<Integer>> subsets(int[] nums) {
-        
+
         List<List<Integer>> finalResult = new ArrayList<>();
 
         backtracking(finalResult, new ArrayList<>(), nums, 0);
